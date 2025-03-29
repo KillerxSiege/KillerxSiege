@@ -1,0 +1,37 @@
+/* Apply basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background to black and add a gold border around the page */
+body {
+    background-color: rgb(0, 0, 0);
+    border: 16px solid rgba(255, 38, 0, 0.89);  /* Gold border */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Create a grid for the squares */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 310px); /* 3 columns of 100px */
+    grid-gap: 10px; /* Space between squares */
+}
+
+/* Style for each square */
+.square {
+    width: 310px;
+    height: 310px;
+    background-color: rgb(130, 128, 255);
+    border: 5px solid rgb(255, 0, 212); /* Gold border around each square */
+}
+p {
+    color: rgb(0, 136, 255);
+}
+p span {color: rgb(255, 67, 67);
+}
+h1 {color: aliceblue;}
