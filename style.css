@@ -18,14 +18,14 @@ body {
 /* Create a grid for the squares */
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 310px); /* 3 columns of 100px */
+    grid-template-columns: repeat(3, 50px); /* 3 columns of 100px */
     grid-gap: 10px; /* Space between squares */
 }
 
 /* Style for each square */
 .square {
-    width: 310px;
-    height: 310px;
+    width: 50px;
+    height: 50px;
     background-color: rgb(130, 128, 255);
     border: 5px solid rgb(255, 0, 212); /* Gold border around each square */
 }
